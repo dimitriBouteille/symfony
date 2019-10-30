@@ -1,0 +1,29 @@
+{
+  "name": "dbout/symfony",
+  "description": "Symfony 4 Projects Utility Class.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": ["symfony", "constraints", "validation", "validator"],
+  "homepage": "https://github.com/dimitriBouteille/symfony-tools/",
+  "support": {
+    "issues": "https://github.com/dimitriBouteille/symfony-tools/issues"
+  },
+  "authors": [
+    {
+      "name": "Dimitri Bouteille",
+      "email": "bonjour@dimitri-bouteille.fr",
+      "homepage": "https://github.com/dimitriBouteille",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "symfony/http-foundation": ">=4.0.0"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Dbout\\Symfony\\": "src/"
+    }
+  }
+}
